@@ -1,0 +1,226 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: block;
+  background-color: black;
+}
+
+.navbar {
+  position: fixed;
+  padding: 1.3vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  z-index: 3;
+}
+
+.navbar-core {
+  position: relative;
+  display: flex;
+  left: 6vw;
+}
+/*
+.nav-button {
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  border: 1px white solid;
+  height: 8vh;
+  width: 15vh;
+  color: white;
+  transition-property: background-color;
+  text-align: center;
+  transition-duration: 1s;
+  margin-left: 15px;
+}
+*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-button {
+  font-family: "Roboto", sans-serif;
+  height: 3.5vh;
+  padding: 1.5vw 2.8vh;
+  margin: 0 0 10px 10px;
+  border: solid 1px white;
+  transition-property: background-color, color;
+  transition-duration: 1.5s;
+}
+
+.nav-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.first-nav-stand {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0px;
+}
+
+.stand-logo {
+  margin: 0px;
+}
+
+.stand-name {
+  margin: 0px;
+  margin-left: 1vw;
+}
+
+.big-titler {
+  color: white;
+
+  z-index: 3;
+}
+
+/*                    SECTION                     */
+/*                                                */
+/*                 | HOME DESIGN |                */
+/*                                                */
+/*                    SECTION                     */
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 70px;
+  margin: 0px;
+  height: 100vh;
+}
+
+.home-title {
+  margin: 0;
+  border: 1px solid white;
+  padding: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 100;
+  text-align: center;
+}
+
+.home-subtitle {
+  position: relative;
+  top: 0px;
+  margin: 0 auto;
+  width: 400px;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.home-button {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  top: 8vh;
+}
+
+section {
+  margin-top: 12vh;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 100px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid gray;
+}
+
+.section-desc {
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.inner-section {
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+  padding-bottom: 20vh;
+  border-bottom: solid 1px rgb(188, 188, 188);
+}
+
+.section-primary-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+.my-selfie {
+  border: 2px solid black;
+}
+
+.table-predisp {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  list-style: square;
+  margin: 0;
+  line-height: 45px;
+  list-style-position: inside;
+}
+
+.table-heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+footer {
+  background-color: black;
+  height: 30vh;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-titler {
+  font-size: 30px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.contact-list {
+  position: relative;
+  left: -30px;
+  font-size: 30px;
+  list-style: square;
+  list-style-position: inside;
+  color: red;
+}
+
+.contact-item {
+  color: white;
+}
+
+.contact-item:hover {
+  color: red;
+}
